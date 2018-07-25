@@ -51,7 +51,7 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
-    display: flex;
+    display: inline-flex;
   }
   
     .cardGroup__card {
@@ -61,7 +61,7 @@ html {
       border-radius: 0;
       flex-grow: 1;
       flex-basis: 0;
-      flex-shrink: unset;
+      flex-shrink: 0;
     }
   
     .cardGroup__card {
@@ -70,7 +70,7 @@ html {
   
     .cardGroup__cardDescription {
       /* flex-grow, flex-shrink, flex-basis */
-      flex-grow: 1;
-      flex-basis: 150px;
-      flex-shrink: unset;
+      flex-grow: 0;
+      flex-basis: 100px;
+      flex-shrink: 0;
     }
